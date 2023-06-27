@@ -14,6 +14,8 @@
 		CAA5D9E12A4B88D3002F47C0 /* TrackerlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA5D9E02A4B88D3002F47C0 /* TrackerlyTests.swift */; };
 		CAA5D9EB2A4B88D3002F47C0 /* TrackerlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA5D9EA2A4B88D3002F47C0 /* TrackerlyUITests.swift */; };
 		CAA5D9ED2A4B88D3002F47C0 /* TrackerlyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA5D9EC2A4B88D3002F47C0 /* TrackerlyUITestsLaunchTests.swift */; };
+		CAA5D9FA2A4B8DA0002F47C0 /* calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA5D9F92A4B8DA0002F47C0 /* calendar.swift */; };
+		CAA5D9FC2A4B8DAB002F47C0 /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA5D9FB2A4B8DAB002F47C0 /* home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		CAA5D9E62A4B88D3002F47C0 /* TrackerlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackerlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAA5D9EA2A4B88D3002F47C0 /* TrackerlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerlyUITests.swift; sourceTree = "<group>"; };
 		CAA5D9EC2A4B88D3002F47C0 /* TrackerlyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerlyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CAA5D9F92A4B8DA0002F47C0 /* calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendar.swift; sourceTree = "<group>"; };
+		CAA5D9FB2A4B8DAB002F47C0 /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				CAA5D9CF2A4B88D0002F47C0 /* TrackerlyApp.swift */,
 				CAA5D9D12A4B88D0002F47C0 /* ContentView.swift */,
+				CAA5D9F92A4B8DA0002F47C0 /* calendar.swift */,
+				CAA5D9FB2A4B8DAB002F47C0 /* home.swift */,
 				CAA5D9D32A4B88D3002F47C0 /* Assets.xcassets */,
 				CAA5D9D52A4B88D3002F47C0 /* Preview Content */,
 			);
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAA5D9FA2A4B8DA0002F47C0 /* calendar.swift in Sources */,
 				CAA5D9D22A4B88D0002F47C0 /* ContentView.swift in Sources */,
+				CAA5D9FC2A4B8DAB002F47C0 /* home.swift in Sources */,
 				CAA5D9D02A4B88D0002F47C0 /* TrackerlyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
