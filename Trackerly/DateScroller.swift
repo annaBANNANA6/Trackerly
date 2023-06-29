@@ -25,7 +25,7 @@ struct DateScrollerView: View
         .font(.title)
         .bold()
         .animation(.none)
-        .frame(maxWidth: .infinity)
+        .frame(maxWidth: 200)
       Button(action: nextMonth)
       {
         Image(systemName: "arrow.right")

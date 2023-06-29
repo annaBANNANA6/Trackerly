@@ -17,7 +17,7 @@ struct CalendarCell: View
   {
     Text(monthStruct().day())
       .foregroundColor(textColor(type: monthStruct().monthType))
-      .frame(maxWidth: .infinity, maxHeight: .infinity)
+      .frame(maxWidth: 200, maxHeight: 200)
   }
   func textColor(type: MonthType) -> Color
   {
