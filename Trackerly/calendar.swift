@@ -16,13 +16,27 @@ struct calendar: View {
             .toolbar{
                 ToolbarItemGroup(placement: .status){
                     NavigationLink(destination: ContentView()){
-                        Image("welcome")
+                        Image("welcome 2")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 100.0, height: 100.0)
+                        
+                        
+                        
                     }
                     NavigationLink(destination: home()){
-                        Image("home")
+                        Image("home 2")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 100.0, height: 100.0)
+                        
                     }
                     NavigationLink(destination: calendar()){
                         Image("calendar")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 100.0, height: 100.0)
+                        
                     }
                 }
             }
