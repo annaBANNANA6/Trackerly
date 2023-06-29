@@ -6,12 +6,13 @@
 //
 
 import SwiftUI
-
 @main
-struct TrackerlyApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+struct CalendarSwiftUIApp: App {
+  var body: some Scene {
+    WindowGroup {
+      let dateHolder = DateHolder()
+        calendar()
+            .environmentObject(dateHolder)
     }
+  }
 }

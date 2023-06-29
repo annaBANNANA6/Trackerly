@@ -65,7 +65,8 @@ struct home: View {
                                     .frame(width: 100.0, height: 100.0)
                                 
                             }
-                            NavigationLink(destination: calendar()){
+                            NavigationLink(destination: calendar())
+                            {
                                 Image("calendar")
                                     .resizable()
                                     .aspectRatio(contentMode: .fit)

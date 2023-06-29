@@ -14,8 +14,13 @@
 		CAA5D9E12A4B88D3002F47C0 /* TrackerlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA5D9E02A4B88D3002F47C0 /* TrackerlyTests.swift */; };
 		CAA5D9EB2A4B88D3002F47C0 /* TrackerlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA5D9EA2A4B88D3002F47C0 /* TrackerlyUITests.swift */; };
 		CAA5D9ED2A4B88D3002F47C0 /* TrackerlyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA5D9EC2A4B88D3002F47C0 /* TrackerlyUITestsLaunchTests.swift */; };
-		CAA5D9FA2A4B8DA0002F47C0 /* calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA5D9F92A4B8DA0002F47C0 /* calendar.swift */; };
 		CAA5D9FC2A4B8DAB002F47C0 /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA5D9FB2A4B8DAB002F47C0 /* home.swift */; };
+		F3B834432A4E097B0036B823 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B834422A4E097B0036B823 /* CalendarCell.swift */; };
+		F3B834452A4E09E90036B823 /* MonthStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B834442A4E09E90036B823 /* MonthStruct.swift */; };
+		F3B834472A4E0A8C0036B823 /* DateScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B834462A4E0A8C0036B823 /* DateScroller.swift */; };
+		F3B834492A4E0AD30036B823 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B834482A4E0AD30036B823 /* CalendarHelper.swift */; };
+		F3B8344B2A4E0AEE0036B823 /* DateHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B8344A2A4E0AEE0036B823 /* DateHolder.swift */; };
+		F3B8344F2A4E224F0036B823 /* calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B8344E2A4E224F0036B823 /* calendar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +51,13 @@
 		CAA5D9E62A4B88D3002F47C0 /* TrackerlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackerlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAA5D9EA2A4B88D3002F47C0 /* TrackerlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerlyUITests.swift; sourceTree = "<group>"; };
 		CAA5D9EC2A4B88D3002F47C0 /* TrackerlyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerlyUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		CAA5D9F92A4B8DA0002F47C0 /* calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendar.swift; sourceTree = "<group>"; };
 		CAA5D9FB2A4B8DAB002F47C0 /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
+		F3B834422A4E097B0036B823 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		F3B834442A4E09E90036B823 /* MonthStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthStruct.swift; sourceTree = "<group>"; };
+		F3B834462A4E0A8C0036B823 /* DateScroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateScroller.swift; sourceTree = "<group>"; };
+		F3B834482A4E0AD30036B823 /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
+		F3B8344A2A4E0AEE0036B823 /* DateHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHolder.swift; sourceTree = "<group>"; };
+		F3B8344E2A4E224F0036B823 /* calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +109,13 @@
 			isa = PBXGroup;
 			children = (
 				CAA5D9CF2A4B88D0002F47C0 /* TrackerlyApp.swift */,
+				F3B834422A4E097B0036B823 /* CalendarCell.swift */,
+				F3B834442A4E09E90036B823 /* MonthStruct.swift */,
 				CAA5D9D12A4B88D0002F47C0 /* ContentView.swift */,
-				CAA5D9F92A4B8DA0002F47C0 /* calendar.swift */,
+				F3B8344E2A4E224F0036B823 /* calendar.swift */,
+				F3B834462A4E0A8C0036B823 /* DateScroller.swift */,
+				F3B834482A4E0AD30036B823 /* CalendarHelper.swift */,
+				F3B8344A2A4E0AEE0036B823 /* DateHolder.swift */,
 				CAA5D9FB2A4B8DAB002F47C0 /* home.swift */,
 				CAA5D9D32A4B88D3002F47C0 /* Assets.xcassets */,
 				CAA5D9D52A4B88D3002F47C0 /* Preview Content */,
@@ -263,10 +278,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAA5D9FA2A4B8DA0002F47C0 /* calendar.swift in Sources */,
+				F3B8344F2A4E224F0036B823 /* calendar.swift in Sources */,
+				F3B834492A4E0AD30036B823 /* CalendarHelper.swift in Sources */,
+				F3B834472A4E0A8C0036B823 /* DateScroller.swift in Sources */,
 				CAA5D9D22A4B88D0002F47C0 /* ContentView.swift in Sources */,
 				CAA5D9FC2A4B8DAB002F47C0 /* home.swift in Sources */,
 				CAA5D9D02A4B88D0002F47C0 /* TrackerlyApp.swift in Sources */,
+				F3B834432A4E097B0036B823 /* CalendarCell.swift in Sources */,
+				F3B8344B2A4E0AEE0036B823 /* DateHolder.swift in Sources */,
+				F3B834452A4E09E90036B823 /* MonthStruct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
