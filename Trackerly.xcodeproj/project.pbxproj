@@ -15,6 +15,12 @@
 		CAA5D9EB2A4B88D3002F47C0 /* TrackerlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA5D9EA2A4B88D3002F47C0 /* TrackerlyUITests.swift */; };
 		CAA5D9ED2A4B88D3002F47C0 /* TrackerlyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA5D9EC2A4B88D3002F47C0 /* TrackerlyUITestsLaunchTests.swift */; };
 		CAA5D9FC2A4B8DAB002F47C0 /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA5D9FB2A4B8DAB002F47C0 /* home.swift */; };
+		F3758C2D2A4F2A8B00DDB7B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3758C2C2A4F2A8B00DDB7B0 /* SceneDelegate.swift */; };
+		F3758C2F2A4F2AB000DDB7B0 /* NoteDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3758C2E2A4F2AB000DDB7B0 /* NoteDetailVC.swift */; };
+		F3758C312A4F2AFE00DDB7B0 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3758C302A4F2AFE00DDB7B0 /* NoteCell.swift */; };
+		F3758C332A4F2B3600DDB7B0 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3758C322A4F2B3600DDB7B0 /* Note.swift */; };
+		F3758C352A4F2BE900DDB7B0 /* NoteTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3758C342A4F2BE900DDB7B0 /* NoteTableView.swift */; };
+		F3758C382A4F320C00DDB7B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3758C362A4F320B00DDB7B0 /* Main.storyboard */; };
 		F3B834432A4E097B0036B823 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B834422A4E097B0036B823 /* CalendarCell.swift */; };
 		F3B834452A4E09E90036B823 /* MonthStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B834442A4E09E90036B823 /* MonthStruct.swift */; };
 		F3B834472A4E0A8C0036B823 /* DateScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B834462A4E0A8C0036B823 /* DateScroller.swift */; };
@@ -52,6 +58,12 @@
 		CAA5D9EA2A4B88D3002F47C0 /* TrackerlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerlyUITests.swift; sourceTree = "<group>"; };
 		CAA5D9EC2A4B88D3002F47C0 /* TrackerlyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerlyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CAA5D9FB2A4B8DAB002F47C0 /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
+		F3758C2C2A4F2A8B00DDB7B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F3758C2E2A4F2AB000DDB7B0 /* NoteDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailVC.swift; sourceTree = "<group>"; };
+		F3758C302A4F2AFE00DDB7B0 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		F3758C322A4F2B3600DDB7B0 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		F3758C342A4F2BE900DDB7B0 /* NoteTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableView.swift; sourceTree = "<group>"; };
+		F3758C372A4F320B00DDB7B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../NoteAppCoreData/NoteAppCoreData/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3B834422A4E097B0036B823 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
 		F3B834442A4E09E90036B823 /* MonthStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthStruct.swift; sourceTree = "<group>"; };
 		F3B834462A4E0A8C0036B823 /* DateScroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateScroller.swift; sourceTree = "<group>"; };
@@ -109,6 +121,10 @@
 			isa = PBXGroup;
 			children = (
 				CAA5D9CF2A4B88D0002F47C0 /* TrackerlyApp.swift */,
+				F3758C2C2A4F2A8B00DDB7B0 /* SceneDelegate.swift */,
+				F3758C2E2A4F2AB000DDB7B0 /* NoteDetailVC.swift */,
+				F3758C302A4F2AFE00DDB7B0 /* NoteCell.swift */,
+				F3758C342A4F2BE900DDB7B0 /* NoteTableView.swift */,
 				F3B834422A4E097B0036B823 /* CalendarCell.swift */,
 				F3B834442A4E09E90036B823 /* MonthStruct.swift */,
 				CAA5D9D12A4B88D0002F47C0 /* ContentView.swift */,
@@ -116,7 +132,9 @@
 				F3B834462A4E0A8C0036B823 /* DateScroller.swift */,
 				F3B834482A4E0AD30036B823 /* CalendarHelper.swift */,
 				F3B8344A2A4E0AEE0036B823 /* DateHolder.swift */,
+				F3758C322A4F2B3600DDB7B0 /* Note.swift */,
 				CAA5D9FB2A4B8DAB002F47C0 /* home.swift */,
+				F3758C362A4F320B00DDB7B0 /* Main.storyboard */,
 				CAA5D9D32A4B88D3002F47C0 /* Assets.xcassets */,
 				CAA5D9D52A4B88D3002F47C0 /* Preview Content */,
 			);
@@ -254,6 +272,7 @@
 			files = (
 				CAA5D9D72A4B88D3002F47C0 /* Preview Assets.xcassets in Resources */,
 				CAA5D9D42A4B88D3002F47C0 /* Assets.xcassets in Resources */,
+				F3758C382A4F320C00DDB7B0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,11 +300,16 @@
 				F3B8344F2A4E224F0036B823 /* calendar.swift in Sources */,
 				F3B834492A4E0AD30036B823 /* CalendarHelper.swift in Sources */,
 				F3B834472A4E0A8C0036B823 /* DateScroller.swift in Sources */,
+				F3758C312A4F2AFE00DDB7B0 /* NoteCell.swift in Sources */,
 				CAA5D9D22A4B88D0002F47C0 /* ContentView.swift in Sources */,
+				F3758C352A4F2BE900DDB7B0 /* NoteTableView.swift in Sources */,
+				F3758C332A4F2B3600DDB7B0 /* Note.swift in Sources */,
 				CAA5D9FC2A4B8DAB002F47C0 /* home.swift in Sources */,
+				F3758C2D2A4F2A8B00DDB7B0 /* SceneDelegate.swift in Sources */,
 				CAA5D9D02A4B88D0002F47C0 /* TrackerlyApp.swift in Sources */,
 				F3B834432A4E097B0036B823 /* CalendarCell.swift in Sources */,
 				F3B8344B2A4E0AEE0036B823 /* DateHolder.swift in Sources */,
+				F3758C2F2A4F2AB000DDB7B0 /* NoteDetailVC.swift in Sources */,
 				F3B834452A4E09E90036B823 /* MonthStruct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,6 +345,17 @@
 			targetProxy = CAA5D9E72A4B88D3002F47C0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3758C362A4F320B00DDB7B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3758C372A4F320B00DDB7B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CAA5D9EE2A4B88D3002F47C0 /* Debug */ = {
