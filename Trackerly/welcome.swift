@@ -7,13 +7,13 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct welcome: View {
     @State private var condition : String = ""
     var body: some View {
         
         NavigationStack{
             VStack() {
-                NavigationLink(destination: ContentView()){
+                NavigationLink(destination: welcome()){
                     Text("TRACKERLY")
                         .font(.title)
                         .fontWeight(.light)
@@ -44,7 +44,7 @@ struct ContentView: View {
                     Button(action: {
                         condition = "sfdfadfdsfdsf"
                     }) {
-                        Image("ok")
+                        Image("meh")
                             .resizable()
                             .aspectRatio(contentMode: .fit)
                             .frame(width: 100.0, height: 100.0)
@@ -86,7 +86,7 @@ struct ContentView: View {
             
             .toolbar{
                 ToolbarItemGroup(placement: .status){
-                    NavigationLink(destination: ContentView()){
+                    NavigationLink(destination: welcome()){
                         Image("welcome")
                             .resizable()
                             .aspectRatio(contentMode: .fit)
@@ -98,7 +98,7 @@ struct ContentView: View {
                             .aspectRatio(contentMode: .fit)
                             .frame(width: 100.0, height: 100.0)
                     }
-                    NavigationLink(destination: calendar())
+                    NavigationLink(destination:HomeView())
                     {
                         Image("calendar")
                             .resizable()
@@ -116,8 +116,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct welcome_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        welcome()
     }
 }

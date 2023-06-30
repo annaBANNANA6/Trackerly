@@ -13,7 +13,7 @@ struct home: View {
             VStack{
                 Spacer()
                     .frame(height: 200)
-                NavigationLink(destination: calendar()){
+                NavigationLink(destination: HomeView()){
                     Image("calendar logo")
                 }
                 Spacer()
@@ -49,7 +49,7 @@ struct home: View {
                     .frame(height: 400)
                     .toolbar{
                         ToolbarItemGroup(placement: .status){
-                            NavigationLink(destination: ContentView()){
+                            NavigationLink(destination: welcome()){
                                 Image("welcome 2")
                                     .resizable()
                                     .aspectRatio(contentMode: .fit)
@@ -65,7 +65,7 @@ struct home: View {
                                     .frame(width: 100.0, height: 100.0)
                                 
                             }
-                            NavigationLink(destination: calendar())
+                            NavigationLink(destination: HomeView())
                             {
                                 Image("calendar")
                                     .resizable()
